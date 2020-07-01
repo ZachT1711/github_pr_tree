@@ -33,7 +33,7 @@
     "prop-types": "^15.5.8",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "react-hot-loader": "^4.6.3",
+    "react-hot-loader": "^4.12.21",
     "react-treeview": "^0.4.7",
     "source-map-support": "^0.4.15",
     "style-loader": "^0.23.1",
