@@ -35,7 +35,7 @@
     "react-dom": "^16.7.0",
     "react-hot-loader": "^4.6.3",
     "react-treeview": "^0.4.7",
-    "source-map-support": "^0.4.15",
+    "source-map-support": "^0.5.19",
     "style-loader": "^0.23.1",
     "webext-domain-permission-toggle": "^1.0.0",
     "webext-dynamic-content-scripts": "^6.0.3",
