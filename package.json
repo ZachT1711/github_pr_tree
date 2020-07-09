@@ -40,7 +40,7 @@
     "webext-domain-permission-toggle": "^1.0.0",
     "webext-dynamic-content-scripts": "^6.0.3",
     "webpack": "^4.42.1",
-    "webpack-dev-server": "^3.10.3",
+    "webpack-dev-server": "^3.11.0",
     "write-file-webpack-plugin": "^4.5.1"
   },
   "devDependencies": {
