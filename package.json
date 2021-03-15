@@ -21,7 +21,7 @@
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "chrome-web-store-item-property": "^1.1.2",
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "^6.0.0",
     "core-js": "2",
     "css-loader": "^2.1.0",
     "file-icons-js": "^1.0.3",
@@ -39,7 +39,7 @@
     "style-loader": "^0.23.1",
     "webext-domain-permission-toggle": "^1.0.0",
     "webext-dynamic-content-scripts": "^6.0.3",
-    "webpack": "^4.42.1",
+    "webpack": "^5.0.0",
     "webpack-dev-server": "^3.10.3",
     "write-file-webpack-plugin": "^4.5.1"
   },
