@@ -12,7 +12,9 @@
     "start-firefox": "cross-env NODE_ENV=development TARGET=firefox node utils/start.js",
     "standard": "standard",
     "test": "jest --watch",
-    "test-ci": "jest"
+    "test-ci": "jest",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@babel/core": "^7.9.0",
@@ -21,7 +23,7 @@
     "babel-loader": "^8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "chrome-web-store-item-property": "^1.1.2",
-    "copy-webpack-plugin": "^5.1.1",
+    "copy-webpack-plugin": "^6.0.0",
     "core-js": "2",
     "css-loader": "^2.1.0",
     "file-icons-js": "^1.0.3",
@@ -40,8 +42,9 @@
     "webext-domain-permission-toggle": "^1.0.0",
     "webext-dynamic-content-scripts": "^6.0.3",
     "webpack": "^4.42.1",
-    "webpack-dev-server": "^3.10.3",
-    "write-file-webpack-plugin": "^4.5.1"
+    "webpack-dev-server": "^4.0.0",
+    "write-file-webpack-plugin": "^4.5.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
@@ -59,5 +62,6 @@
     "globals": [
       "browser"
     ]
-  }
+  },
+  "snyk": true
 }
